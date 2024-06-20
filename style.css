@@ -1,8 +1,8 @@
 /* General body styling */
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #040831;
+    color: #4778ea;
     line-height: 1.6;
     padding: 20px;
 }
@@ -10,7 +10,7 @@ body {
 /* Title section styling */
 .title h1 {
     text-align: center;
-    color: #333;
+    color: #4778ea;
 }
 
 /* Questions section styling */
@@ -41,4 +41,27 @@ body {
     margin-top: 20px;
     border-radius: 8px;
     font-size: 1.2em;
+}
+
+.record-num{
+    text-align: center;
+}
+
+button{
+    align-self: center;
+}
+
+.submit-button{
+    color: #000000;
+    background-color: #523cff;
+    text-align:center;
+    width: 200px;
+    padding: 10px;
+}
+
+.casual-img,
+.connoisseur-img,
+.gatekeeper-img,
+.expert-img {
+    display:none;
 }
