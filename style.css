@@ -64,4 +64,6 @@ button{
 .gatekeeper-img,
 .expert-img {
     display:none;
+    width: 75%; /* Make images responsive */
+    height: auto
 }

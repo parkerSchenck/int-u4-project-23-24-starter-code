@@ -5,10 +5,10 @@ let noButton = document.querySelector(".no-button");
 let submitButton = document.querySelector(".submit-button");
 let resultDiv = document.querySelector(".result");
 let questionButtonValue = 0;
-let casualImg = querySelector(".casual-img");
-let connoissuerImg = querySelector(".connoisseur-img");
-let gatekeeperImg = querySelector(".gatekeeper-img");
-let expertImg = querySelector(".expert-img");
+let casualImg = document.querySelector(".casual-img");
+let connoissuerImg = document.querySelector(".connoisseur-img");
+let gatekeeperImg = document.querySelector(".gatekeeper-img");
+let expertImg = document.querySelector(".expert-img");
 
 
 
@@ -36,7 +36,7 @@ submitButton.addEventListener("click", function(){
 
     } else if (recordNum > 6 && questionButtonValue === 0) {
         resultDiv.innerHTML = "You're a Music Connoissuer. You enjoy music to it's fullest extent while understanding the taste of others.";
-        connoisseurImg.style.display = 'block';
+        connoissuerImg.style.display = 'block';
 
     } else if (recordNum <= 6 && questionButtonValue === 1) {
         resultDiv.innerHTML = "You're a Music Gatekeeper. You don't enjoy letting others know what to listen to, instead you keep it to yourself.";
